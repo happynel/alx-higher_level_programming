@@ -8,20 +8,20 @@ TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 Traceback (most recent call last):
 TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
 
->>> say_my_name(42)
+>>> say_my_name(41)
 Traceback (most recent call last):
 TypeError: first_name must be a string
 
->>> say_my_name(42, "Happiness")
+>>> say_my_name(41, "Ede")
 Traceback (most recent call last):
 TypeError: first_name must be a string
 
->>> say_my_name("Ede", 42)
+>>> say_my_name("Happiness", 41)
 Traceback (most recent call last):
 TypeError: last_name must be a string
 
->>> say_my_name("Ede", "Happiness")
-My name is Ede Happiness
+>>> say_my_name("Happiness", "Ede")
+My name is Happiness Ede
 
 >>> say_my_name("Happiness")
 My name is Happiness
